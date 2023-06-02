@@ -1,0 +1,75 @@
+.header{
+  background: white;
+  position: fixed;
+  width: 100%;
+}
+.content{
+  padding-top:10em;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #04AA6D;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: yellow;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: orange;
+    color: white;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  p{
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1{
+    color: transparent;
+    animation: effect 2s linear infinite;
+  }
+
+  @keyframes effect {
+    0% {
+        background: linear-gradient(
+                #008000, #00FF00);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+                #3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
